@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Home Automation And Security</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_key">Api Key</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="auth_failed">Wrong Email or Password!</string>
+    <string name="register_auth_failed">Register Failed</string>
+    <string name="register_successful">Registration Successful</string>
+    <string name="auth_successful">Logged In Successfully</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Gagan Lohia\Desktop\Firebase-Save-Images-master\HomeAutomationAndSecurity\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="56268c9db2ba3e44a3d8bdb2c343c6a4742959c1">
+        <dex dex="C:\Users\Gagan Lohia\Desktop\Firebase-Save-Images-master\HomeAutomationAndSecurity\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_bd17e33f14752c7efed6fef07056ed9ab5573776\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Gagan Lohia\.android\build-cache\9cedf18c15576bd894bf1d7c37a292c9aa939c9c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="C:\Users\Gagan Lohia\Desktop\Firebase-Save-Images-master\HomeAutomationAndSecurity\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2f4a11f2ed28be290ea062871496efdf3e94cc7d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Gagan Lohia\.android\build-cache\d0e4ced12ac0bd02eb3f1228554ac2bda3c8452f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="C:\Users\Gagan Lohia\Desktop\Firebase-Save-Images-master\HomeAutomationAndSecurity\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e9760c95d86d397d18dcf10c9edfbc4110b6d185\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Gagan Lohia\Desktop\Firebase-Save-Images-master\HomeAutomationAndSecurity\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="C:\Users\Gagan Lohia\Desktop\Firebase-Save-Images-master\HomeAutomationAndSecurity\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_107ba7d05c1965b4dd003620384a3161006eecb8\classes.dex" />
+    </item>
+
+</items>
