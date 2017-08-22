@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -21,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
     private FirebaseAuth.AuthStateListener mAuthListener;
     private String TAG = "Gagan";
     private EditText emailEditText,passwordEditText;
+    private ProgressBar pBar;
 
 
     @Override
@@ -30,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
         emailEditText = (EditText) findViewById(R.id.email);
         passwordEditText = (EditText) findViewById(R.id.password);
+        pBar = (ProgressBar) findViewById(R.id.pBar);
         mAuth = FirebaseAuth.getInstance();
         mAuthListener = new FirebaseAuth.AuthStateListener() {
             @Override
@@ -37,6 +40,10 @@ public class MainActivity extends AppCompatActivity {
                 FirebaseUser user = firebaseAuth.getCurrentUser();
                 if (user != null) {
                     Log.d(TAG, "onAuthStateChanged:signed_in:" + user.getUid());
+                    Intent in = new Intent(getApplicationContext(),HomePage.class);
+                    startActivity(in);
+                    overridePendingTransition( R.anim.slide_in_up, R.anim.slide_out_up );
+                    finish();
                 } else {
                     Log.d(TAG, "onAuthStateChanged:signed_out");
                 }
@@ -48,6 +55,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void validateUser(View v) {
+        pBar.setVisibility(View.VISIBLE);
         String email = emailEditText.getText().toString(), password = passwordEditText.getText().toString();
         mAuth.signInWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
@@ -67,9 +75,11 @@ public class MainActivity extends AppCompatActivity {
                             Toast.makeText(MainActivity.this, R.string.auth_successful,
                                     Toast.LENGTH_SHORT).show();
                         }
+                        pBar.setVisibility(View.INVISIBLE);
                     }
                 });
     }
+
 
 
     public void toRegisterPage(View v) {
@@ -77,6 +87,8 @@ public class MainActivity extends AppCompatActivity {
             mAuth.signOut();
         Intent in = new Intent(getApplicationContext(),RegisterPage.class);
         startActivity(in);
+        overridePendingTransition( R.anim.slide_in_up, R.anim.slide_out_up );
+        finish();
     }
 
     @Override

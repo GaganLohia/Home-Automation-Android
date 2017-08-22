@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -23,6 +24,7 @@ public class RegisterPage extends AppCompatActivity {
     private  EditText emailEditText,passwordEditText,apiKeyEditText;
     private FirebaseAuth mAuth;
     private String TAG = "Gagan";
+    private ProgressBar pBar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +33,7 @@ public class RegisterPage extends AppCompatActivity {
 
         emailEditText = (EditText) findViewById(R.id.email);
         passwordEditText = (EditText) findViewById(R.id.password);
+        pBar = (ProgressBar) findViewById(R.id.pBar);
         apiKeyEditText = (EditText) findViewById(R.id.apiKey);
         mAuth = FirebaseAuth.getInstance();
     }
@@ -38,10 +41,13 @@ public class RegisterPage extends AppCompatActivity {
     public void toLoginPage(View v){
         Intent in = new Intent(getApplicationContext(),MainActivity.class);
         startActivity(in);
+        overridePendingTransition( R.anim.slide_in_up, R.anim.slide_out_up );
+        finish();
     }
 
     public void registerUser(View v) {
 
+        pBar.setVisibility(View.VISIBLE);
         final String email = emailEditText.getText().toString(), password = passwordEditText.getText().toString(), apiKey = apiKeyEditText.getText().toString();
 
         if(mAuth!=null)
@@ -64,7 +70,7 @@ public class RegisterPage extends AppCompatActivity {
                             Toast.makeText(RegisterPage.this, R.string.register_successful,
                                     Toast.LENGTH_SHORT).show();
                         }
-
+                        pBar.setVisibility(View.INVISIBLE);
                         // ...
                     }
                 });
@@ -78,6 +84,8 @@ public class RegisterPage extends AppCompatActivity {
                                 DatabaseReference myRef = database.getReference(mAuth.getCurrentUser().getUid());
 
                                 myRef.setValue(apiKey);
+                                Intent in = new Intent(getApplicationContext(),HomePage.class);
+                                startActivity(in);
                             }
                         }
                     });

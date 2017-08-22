@@ -2,31 +2,175 @@
 <items version="2" >
 
     <item
+        is-multidex="false"
+        jar="C:\Users\Gagan Lohia\.android\build-cache\24b006d068ee33530303431933845140a133ded5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="C:\Users\Gagan Lohia\Desktop\Firebase-Save-Images-master\HomeAutomationAndSecurity\app\build\intermediates\pre-dexed\debug\classes_78b45eaa9e6a2f7351086f632bdbeca29408ee55.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gagan Lohia\.android\build-cache\08440a22778cbc4074e9626ebf7922c3016538b6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="C:\Users\Gagan Lohia\Desktop\Firebase-Save-Images-master\HomeAutomationAndSecurity\app\build\intermediates\pre-dexed\debug\classes_103bdfee04704fc089c839223533d426ae52d585.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gagan Lohia\.android\build-cache\a20feb7268af8f00e23dddcae6b33cc45f67a6ae\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="C:\Users\Gagan Lohia\Desktop\Firebase-Save-Images-master\HomeAutomationAndSecurity\app\build\intermediates\pre-dexed\debug\classes_1a1786c8d2d36075e8e011d18a43f4b8fe9d222e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gagan Lohia\.android\build-cache\afdfeb220c7ddb1788ab9744540f3ccb55b9da28\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Gagan Lohia\Desktop\Firebase-Save-Images-master\HomeAutomationAndSecurity\app\build\intermediates\pre-dexed\debug\classes_fc2db9fae23aa3925c506111df57fb7333d812db.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gagan Lohia\.android\build-cache\d8e9948eb64e32deee8844a982664b57fa6cc018\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="C:\Users\Gagan Lohia\Desktop\Firebase-Save-Images-master\HomeAutomationAndSecurity\app\build\intermediates\pre-dexed\debug\classes_7d50c3287e19ec7a569ee54504267a8a38df117b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gagan Lohia\.android\build-cache\3f45a79e1f0a0476199785a56469d6cea9a9c447\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="C:\Users\Gagan Lohia\Desktop\Firebase-Save-Images-master\HomeAutomationAndSecurity\app\build\intermediates\pre-dexed\debug\classes_49cef7478aac8c1c275fc12c5dc1bbbbb15d413f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gagan Lohia\.android\build-cache\c7631ecf90de665479ec714ea883b394793677d6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="C:\Users\Gagan Lohia\Desktop\Firebase-Save-Images-master\HomeAutomationAndSecurity\app\build\intermediates\pre-dexed\debug\classes_997e3f588c91cf4dfc58ede57c909545b27d9146.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gagan Lohia\.android\build-cache\e1926fbe9221f0e95caf4e66236349de77c358ff\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="C:\Users\Gagan Lohia\Desktop\Firebase-Save-Images-master\HomeAutomationAndSecurity\app\build\intermediates\pre-dexed\debug\classes_0493f960df0207bbf48a2f4178a63309c61b172a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gagan Lohia\.android\build-cache\9868eab04e6e8eb6312229c3a62b646fb632b0b5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="C:\Users\Gagan Lohia\Desktop\Firebase-Save-Images-master\HomeAutomationAndSecurity\app\build\intermediates\pre-dexed\debug\classes_5d6eceef5ff9e135fc85308fd8429122685caa88.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="C:\Users\Gagan Lohia\Desktop\Firebase-Save-Images-master\HomeAutomationAndSecurity\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.0"
-        sha1="56268c9db2ba3e44a3d8bdb2c343c6a4742959c1">
+        sha1="836540aee1d14b3f032f0601475061ed592dd62e">
         <dex dex="C:\Users\Gagan Lohia\Desktop\Firebase-Save-Images-master\HomeAutomationAndSecurity\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_bd17e33f14752c7efed6fef07056ed9ab5573776\classes.dex" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Gagan Lohia\.android\build-cache\9cedf18c15576bd894bf1d7c37a292c9aa939c9c\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\Gagan Lohia\.android\build-cache\df634068cf1a55cad94e58807944199a9e07a8d0\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.0"
-        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
-        <dex dex="C:\Users\Gagan Lohia\Desktop\Firebase-Save-Images-master\HomeAutomationAndSecurity\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2f4a11f2ed28be290ea062871496efdf3e94cc7d\classes.dex" />
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="C:\Users\Gagan Lohia\Desktop\Firebase-Save-Images-master\HomeAutomationAndSecurity\app\build\intermediates\pre-dexed\debug\classes_eb1c7d39da6a4852cb42807560de958082d1db4c.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
+        jar="C:\Users\Gagan Lohia\.android\build-cache\8a6a9b865795d1d079172e78405af26b6ebe629a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="C:\Users\Gagan Lohia\Desktop\Firebase-Save-Images-master\HomeAutomationAndSecurity\app\build\intermediates\pre-dexed\debug\classes_49c9f2d159381c461b1fde270fcf3c4e307c1ea1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gagan Lohia\AppData\Local\Android\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\Gagan Lohia\Desktop\Firebase-Save-Images-master\HomeAutomationAndSecurity\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_038a82984136e27b798eaa1674ea9e3f7bce8ecc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gagan Lohia\.android\build-cache\6c8568d4ffeba43b533b9bfa36cff8faa8570e6b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="C:\Users\Gagan Lohia\Desktop\Firebase-Save-Images-master\HomeAutomationAndSecurity\app\build\intermediates\pre-dexed\debug\classes_a39cfcac46c8d4942355052ba39911de76f266a1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gagan Lohia\.android\build-cache\601f4df3da71b1218325c38b2b6ae27fcee444b7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="C:\Users\Gagan Lohia\Desktop\Firebase-Save-Images-master\HomeAutomationAndSecurity\app\build\intermediates\pre-dexed\debug\classes_2908dde7b1f8b9974f24d38e4fb5fca3a74cc490.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gagan Lohia\.android\build-cache\2084bcb92dc49e79973b776afc96b29fd42a9c97\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="C:\Users\Gagan Lohia\Desktop\Firebase-Save-Images-master\HomeAutomationAndSecurity\app\build\intermediates\pre-dexed\debug\classes_765fbbd6c3c8af8b58e3d4e8281651a00d4830f6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gagan Lohia\.android\build-cache\94e43d75c2d5f817389282fe3880ece32718c53b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="C:\Users\Gagan Lohia\Desktop\Firebase-Save-Images-master\HomeAutomationAndSecurity\app\build\intermediates\pre-dexed\debug\classes_cacdf3684081642e54cfc8d9394fde575c037dc0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gagan Lohia\.android\build-cache\33f6f7734f2febad5576063d9a05b7e4f40b4d80\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="C:\Users\Gagan Lohia\Desktop\Firebase-Save-Images-master\HomeAutomationAndSecurity\app\build\intermediates\pre-dexed\debug\classes_88675f5279c4ad6c7b9d3abff74741c734bc1f75.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Gagan Lohia\.android\build-cache\d0e4ced12ac0bd02eb3f1228554ac2bda3c8452f\output\jars\classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="26.0.0"
         sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
-        <dex dex="C:\Users\Gagan Lohia\Desktop\Firebase-Save-Images-master\HomeAutomationAndSecurity\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e9760c95d86d397d18dcf10c9edfbc4110b6d185\classes.dex" />
+        <dex dex="C:\Users\Gagan Lohia\Desktop\Firebase-Save-Images-master\HomeAutomationAndSecurity\app\build\intermediates\pre-dexed\debug\classes_e9760c95d86d397d18dcf10c9edfbc4110b6d185.jar" />
     </item>
     <item
         is-multidex="true"
@@ -36,6 +180,69 @@
         revision="26.0.0"
         sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
         <dex dex="C:\Users\Gagan Lohia\Desktop\Firebase-Save-Images-master\HomeAutomationAndSecurity\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_107ba7d05c1965b4dd003620384a3161006eecb8\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gagan Lohia\.android\build-cache\891b65d974c94a9bac4902db70cb8fb0749f25b9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="C:\Users\Gagan Lohia\Desktop\Firebase-Save-Images-master\HomeAutomationAndSecurity\app\build\intermediates\pre-dexed\debug\classes_e9fb4fbc81e49b6a7926a528fc23e33c05dcf40b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gagan Lohia\.android\build-cache\7f1523f75346ad142f22cf185db0f67595d2bbb6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\Gagan Lohia\Desktop\Firebase-Save-Images-master\HomeAutomationAndSecurity\app\build\intermediates\pre-dexed\debug\classes_e105bcf771ced16177d1c9a6e72d10c92f311403.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gagan Lohia\.android\build-cache\52e1d9189cac92472f853c3bb97f6f8acbe2d0b1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
+        <dex dex="C:\Users\Gagan Lohia\Desktop\Firebase-Save-Images-master\HomeAutomationAndSecurity\app\build\intermediates\pre-dexed\debug\classes_3463c370b1874aededd2bfb8237ffbfe908389c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gagan Lohia\.android\build-cache\7e1b54306c4e32b3f84138160412ecdc3e7e4f79\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="C:\Users\Gagan Lohia\Desktop\Firebase-Save-Images-master\HomeAutomationAndSecurity\app\build\intermediates\pre-dexed\debug\classes_679116b456e350b326b6f7181304058a59e0c2b3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gagan Lohia\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="C:\Users\Gagan Lohia\Desktop\Firebase-Save-Images-master\HomeAutomationAndSecurity\app\build\intermediates\pre-dexed\debug\support-annotations-26.0.0-alpha1_4d24d8db90c7b2bda69b2aef00b7dfcff4c6969f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gagan Lohia\.android\build-cache\196c892440c93b135f6ea6340c46de919d0fe664\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="C:\Users\Gagan Lohia\Desktop\Firebase-Save-Images-master\HomeAutomationAndSecurity\app\build\intermediates\pre-dexed\debug\classes_14b17e05a835a2167aafabe40e2819ed807f6c6d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gagan Lohia\.android\build-cache\9cedf18c15576bd894bf1d7c37a292c9aa939c9c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="C:\Users\Gagan Lohia\Desktop\Firebase-Save-Images-master\HomeAutomationAndSecurity\app\build\intermediates\pre-dexed\debug\classes_2f4a11f2ed28be290ea062871496efdf3e94cc7d.jar" />
     </item>
 
 </items>

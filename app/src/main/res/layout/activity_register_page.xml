@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="@color/colorPrimary"
@@ -61,7 +62,7 @@
             android:textColor="@color/input_register"
             android:textColorHint="@color/input_register_hint" />
 
-        <!-- Login Button -->
+        <!-- Register Button -->
 
         <Button
             android:id="@+id/btnRegister"
@@ -74,13 +75,22 @@
             android:clickable="true"
             android:onClick="registerUser"/>
 
+        <ProgressBar
+            android:id="@+id/pBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:visibility="invisible"/>
+
         <!-- Link to Login Screen -->
 
         <Button
             android:id="@+id/btnLinkToLoginScreen"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="40dip"
+            android:layout_marginTop="20dp"
             android:background="@null"
             android:text="@string/btn_link_to_login"
             android:textAllCaps="false"
